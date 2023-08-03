@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <!-- works like <a href="/index.html">Home</a> -->
+        <a href="/">Home</a>
+      </nav>
+    </header>
+    <main>
+      <form method="POST" action="http://localhost:3000/profile">
+          <div><label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+          </div>
+          <div><label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname">
+          </div>
+          <div><label for="cars">Car Type:</label><br>
+            <input type="radio" id="cars" name="cars">
+            <label for="cars">Honda</label></div>
+          <div><input type="radio" id="cars" name="cars">
+            <label for="cars">Toyota</label></div>
+          <div><input type="radio" id="cars" name="cars">
+            <label for="cars">Mitsubishi</label></div>
+            <div><label for="advertising">How did you hear about us?</label><br>
+              <input type="radio" id="advertising" name="advertising">
+              <label for="advertising">Social Media</label></div>
+            <div><input type="radio" id="advertising" name="advertising">
+              <label for="advertising">Email</label></div>
+            <div><input type="radio" id="advertising" name="advertising">
+              <label for="advertising">Bilboard</label></div>
+            <div><input type="radio" id="advertising" name="advertising">
+                <label for="advertising">Word of mouth</label></div>
+            <div><label for="country">What country are you in?</label><br>
+                <select id="country" name="country">
+                  <option value="newZealand">New Zealand</option>
+                  <option value="australia">Australia</option>
+                  <option value="unitedKingdom">United Kingdom</option>
+                  <option value="unitedStatesOfAmerica">United States of America</option>
+                </select>
+            </div>
+            <div>
+              <button type="submit">Submit form</button>
+            </div>
+            <nav>
+              <a href="index.html">Home</a>
+          </nav>
+          
+      </form>  
+    </main>
+    <footer>Copyright 2021 &copy;</footer>
+  </body>
+</html>
